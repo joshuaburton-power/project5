@@ -1,0 +1,181 @@
+@font-face
+{
+    font-family: "Oswald-regular";
+    src: url("fonts/Oswald-Regular.ttf");
+}
+body {
+    font-family: "Oswald-regular";
+    width: 100%;
+}
+#header
+{
+    font-size: 30px;
+    width: 1000px;
+    top: 0;
+    
+}
+#logIn
+{
+    border: 2px solid black;
+    width:20.6%;
+    background-color: #E36DC0;
+    opacity: 0.8;   
+    height: 11%;
+    text-align: center;
+    border-radius: 10px;
+}
+.logInButton
+{
+    height: 40%;
+    width: 40%;
+    background-color: #583FE8;
+    border: 2px solid black; 
+    color: blanchedalmond;
+    border-radius: 10px;
+    font-size: 25px;
+}
+#footer
+{
+    margin-top: 8%;
+}
+#bliss
+{
+    margin-bottom: 1.5%;
+}
+
+
+/*Menu style*/
+#divMenu
+{
+    width:100%;
+    height: 10%;
+    top: 0;
+}
+
+.button
+{
+    border-radius: 200px;
+    font-size: 15px;
+    color: black;
+    border: 1px solid black;
+    background-color: #3C93F0;
+}
+#middlePage
+{
+    width: 60%;
+    height: 77%;
+    background-color: white;
+    text-align: center;
+    margin-left: auto ;
+    margin-right: auto ;
+    border-radius: 10px;
+}
+
+.table {
+    text-align: center;
+    border: 2px solid black;
+    background-color: lightblue;
+}
+html
+{
+    height: 100%;
+    font-size: 1em;
+    background-color: hsl(60,0%,20%);
+    background-image:
+        radial-gradient(
+        white 10%,
+        hsla(0,0%,100%,0) 11%
+        ),
+        radial-gradient(
+        white 10%,
+        hsla(0,0%,100%,0) 11%
+        ),
+        radial-gradient(
+        white 8%,
+        hsla(0,0%,100%,0) 9%
+        ),
+        radial-gradient(
+        white 6%,
+        hsla(0,0%,100%,0) 7%
+        ),
+        radial-gradient(
+        white 6%,
+        hsla(0,0%,100%,0) 7%
+        ),
+        radial-gradient(
+        white 8%,
+        hsla(0,0%,100%,0) 9%
+        ),  
+        radial-gradient(
+        white 10%,
+        hsla(0,0%,100%,0) 11%
+        ),
+        radial-gradient(
+        white 10%,
+        hsla(0,0%,100%,0) 11%
+        ),
+
+        linear-gradient( 
+        hsl(220,80%,70%), 
+        hsl(0,60%,80%)
+        );
+    background-position: 
+        calc(50% - 5em) 50%,/* 1 */
+        calc(50% - 2.5em) calc(50% - 1.5em),/* 2 */
+        50% calc(50% - 2em),/* 3 */ 
+        calc(50% + 2.5em) calc(50% - 1.5em),/* 4 */
+
+        calc(50% - 5em) 50%,/* 5 */
+        calc(50% - 2.5em) calc(50% + 1.5em),/* 6 */
+        50% calc(50% + 2em),/* 7 */ 
+        calc(50% + 2.5em) calc(50% + 1.5em),/* 8 */
+
+        0 50%;    
+    background-size: 
+        10em 10em,
+        10em 10em,
+        10em 10em,
+        10em 10em,
+
+        10em 10em,
+        10em 10em,
+        10em 10em,
+        10em 10em,
+
+        100% 100%;
+    background-repeat: repeat-x;
+    animation: .25s ring linear infinite;
+}
+
+
+@keyframes ring {
+    0% {
+        background-position: 
+            calc(50% - 5em) 50%,/* 1 */
+            calc(50% - 2.5em) calc(50% - 1.5em),/* 2 */
+            50% calc(50% - 2em),/* 3 */ 
+            calc(50% + 2.5em) calc(50% - 1.5em),/* 4 */
+
+            calc(50% - 5em) 50%,/* 5 */
+            calc(50% - 2.5em) calc(50% + 1.5em),/* 6 */
+            50% calc(50% + 2em),/* 7 */ 
+            calc(50% + 2.5em) calc(50% + 1.5em),/* 8 */
+
+            0 50%;  
+    }
+    100% { 
+        background-position: 
+            calc(50% - 2.5em) calc(50% - 1.5em),/* 1 */
+            50% calc(50% - 2em),/* 2 */
+            calc(50% + 2.5em) calc(50% - 1.5em),/* 3 */ 
+            calc(50% + 5em) 50%,/* 4 */
+
+            calc(50% - 2.5em) calc(50% + 1.5em),/* 5 */
+            50% calc(50% + 2em),/* 6 */
+            calc(50% + 2.5em) calc(50% + 1.5em),/* 7 */ 
+            calc(50% + 5em) 50%,/* 8 */
+
+            0 50%;  
+    }
+}
+
